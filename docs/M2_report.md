@@ -9,7 +9,7 @@ CS-GY 6313 Information Visualization | Fall 2026 | **Team 9: GG BOND**
 | Zhangzhuoyue Shi | zs3699 |
 | Yaxi Wang | yw10340 |
 
-**GitHub repository:** `<PASTE REPO URL>` (private; shared with `ctsilva` and `kimryan0416`)
+**GitHub repository:** https://github.com/troy-shi/gg-bond-ev-charging (private; shared with `ctsilva` and `kimryan0416`)
 **Data access, run instructions, and AI-use statement:** see the repository `README.md`.
 **AI use in this report:** sections marked **[AI-a]** used AI assistance as described in [§8](#8-ai-use-statement). All sketches are hand-drawn by the team.
 
