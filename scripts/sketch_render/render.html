@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Sketch render</title>
+<script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@excalidraw/utils@0.1.2/dist/excalidraw-utils.min.js"></script>
+<style>@font-face{font-family:"Virgil";src:url("https://unpkg.com/@excalidraw/excalidraw@0.17.6/dist/excalidraw-assets/Virgil.woff2") format("woff2")}
+body{background:#fff;margin:0;font-family:sans-serif} img{display:block;max-width:100%;border-bottom:1px solid #ccc}</style>
+</head><body><div id="out">rendering…</div>
+<script>
+const names = ["intro", "q7", "storyboard"];
+async function run() {
+  await document.fonts.load('20px "Virgil"');
+  const out = document.getElementById("out"); out.textContent = "";
+  for (const n of names) {
+    const doc = await (await fetch(n + ".excalidraw")).json();
+    const blob = await ExcalidrawUtils.exportToBlob({
+      elements: doc.elements, appState: { ...doc.appState, exportBackground: true, exportScale: 2 },
+      files: {}, mimeType: "image/png", exportPadding: 20,
+    });
+    await fetch("/save/" + n + ".png", { method: "POST", body: blob });
+    const img = document.createElement("img"); img.src = URL.createObjectURL(blob); out.appendChild(img);
+  }
+  document.title = "done";
+}
+run().catch(e => { document.getElementById("out").textContent = "ERROR " + e; document.title = "error"; });
+</script></body></html>

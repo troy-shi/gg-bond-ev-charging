@@ -15,6 +15,8 @@ A D3 visual narrative on how public EV charging supply is distributed across the
 scripts/00_download.sh        downloads every raw dataset into data/raw/
 scripts/01_build_tables.py    cleaning, county spatial join, all processed tables, QA report
 scripts/02_make_samples.py    sample tables + headline numbers used in the report (docs/samples/)
+scripts/03_make_sketch_layouts.py  AI-drafted Excalidraw layouts for storyboard, intro, Q7 (see AI-use statement)
+scripts/sketch_render/       local renderer that exports those layouts to PNG
 data/raw/                     raw downloads (git-ignored; recreate with 00_download.sh)
 data/processed/               processed CSVs, qa_report.json, snapshot_metadata.json
 docs/                         milestone reports and generated sample tables
@@ -65,6 +67,6 @@ Column definitions and data-handling decisions are in §1 of the [M2 report](doc
 > _Draft. The team must edit this to match exactly how AI was used._
 
 - **Tool:** Claude (Anthropic), via Claude Code.
-- **Used for:** writing and debugging `scripts/00_download.sh`, `scripts/01_build_tables.py`, and `scripts/02_make_samples.py`; drafting the structure and text of `docs/M2_report.md` and this README; checking our revised plan against the Milestone 1 feedback.
-- **Not used for:** the visualization sketches in `sketches/`, which were drawn by the team.
+- **Used for:** writing and debugging `scripts/00_download.sh`, `scripts/01_build_tables.py`, `scripts/02_make_samples.py`, and `scripts/03_make_sketch_layouts.py`; drafting the structure and text of `docs/M2_report.md` and this README; checking our revised plan against the Milestone 1 feedback.
+- **Sketches with AI assistance:** storyboard, intro explainer, and Q7. Claude generated draft layouts (`scripts/03_make_sketch_layouts.py`), which were then redrawn and annotated by hand. All other sketches were drawn by the team without AI. `<confirm with each member before submission>`
 - **Verification:** the team reviewed the code, re-ran the pipeline, and checked the QA counts and sample rows against the raw files. We are responsible for all numbers and design decisions.
