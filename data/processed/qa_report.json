@@ -1,0 +1,43 @@
+{
+  "afdc_rows_downloaded": 83686,
+  "after_filters": 83686,
+  "after_dedup_by_id": 83686,
+  "dropped_outside_50_states_dc": 20,
+  "invalid_coordinates": 0,
+  "stations_all_port_fields_blank": 1,
+  "negative_port_values": 0,
+  "county_match": {
+    "within_polygon": 83648,
+    "nearest_within_5km": 16,
+    "unresolved": 2
+  },
+  "afdc_state_differs_from_county_state": 3,
+  "bulk_open_dates": {
+    "2021-01-27": 6694,
+    "2020-06-12": 1935
+  },
+  "stations_in_scope": 83666,
+  "counties_in_scope": 3144,
+  "counties_no_stations": 795,
+  "counties_ports_incomplete": 1,
+  "counties_missing_population": 0,
+  "counties_missing_income": 1,
+  "counties_missing_rucc": 0,
+  "q2_eligible_counties": 3143,
+  "q7_eligible_counties": 3142,
+  "q7_default_percentiles": {
+    "total": 0.3,
+    "dcfc": 0.4,
+    "income": 0.5
+  },
+  "q7_default_cutoffs": {
+    "total_rate_cutoff": 9.39,
+    "dcfc_rate_cutoff": 2.39,
+    "income_cutoff": 65671.0
+  },
+  "q7_share_counties_zero_ports": 0.253,
+  "q7_share_counties_zero_dcfc": 0.39,
+  "q7_selected_default": 575,
+  "open_date_missing_or_invalid": 0,
+  "stations_connector_unknown": 3
+}

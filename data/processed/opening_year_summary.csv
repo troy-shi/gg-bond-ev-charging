@@ -1,0 +1,15 @@
+opening_year_group,stations,stations_on_bulk_dates,share_of_stations,is_partial_year,note
+before 2015,1932,0,0.0231,False,
+2015,1111,0,0.0133,False,
+2016,1199,0,0.0143,False,
+2017,1399,0,0.0167,False,
+2018,1701,0,0.0203,False,
+2019,2348,0,0.0281,False,
+2020,5281,1935,0.0631,False,
+2021,12990,6694,0.1553,False,
+2022,9262,0,0.1107,False,
+2023,11601,0,0.1387,False,
+2024,11903,0,0.1423,False,
+2025,12824,0,0.1533,False,
+2026,10115,0,0.1209,True,partial year: through 2026-10-30
+missing or invalid date,0,0,0.0,False,

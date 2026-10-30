@@ -1,0 +1,52 @@
+{
+  "q6_by_metro": {
+    "Metro": {
+      "n": 1185,
+      "spearman_income_total_rate": 0.36,
+      "spearman_income_dcfc_rate": 0.22,
+      "median_ports_per_100k": 38.4,
+      "share_zero_ports": 0.111
+    },
+    "Nonmetro": {
+      "n": 1957,
+      "spearman_income_total_rate": 0.21,
+      "spearman_income_dcfc_rate": 0.15,
+      "median_ports_per_100k": 20.9,
+      "share_zero_ports": 0.339
+    }
+  },
+  "stations": 83666,
+  "total_ports": 263062,
+  "l1_ports": 688,
+  "l2_ports": 182819,
+  "dcfc_ports": 79555,
+  "top5_states_share_of_ports": 0.497,
+  "top5_states": [
+    "CA",
+    "NY",
+    "FL",
+    "TX",
+    "MA"
+  ],
+  "ca_share_of_ports": 0.265,
+  "networks_us": 98,
+  "chargepoint_share_of_stations": 0.585,
+  "counties_zero_dcfc": 1225,
+  "high_rate_small_county": {
+    "county_name": "Gilpin County",
+    "state": "CO",
+    "population": 5901,
+    "stations": 38,
+    "total_ports": 99.0,
+    "ports_per_100k": 1677.68,
+    "rank_total_ports": 408.0,
+    "rank_ports_per_100k": 1.0
+  },
+  "big_mover": {
+    "county_name": "Thomas County",
+    "state": "NE",
+    "population": 564,
+    "rank_total_ports": 2059.0,
+    "rank_ports_per_100k": 49.0
+  }
+}

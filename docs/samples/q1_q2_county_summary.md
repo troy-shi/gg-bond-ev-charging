@@ -1,0 +1,14 @@
+|   county_fips | county_name        | state   |   stations |   l1_ports |   l2_ports |   dcfc_ports |   total_ports |   population |   ports_per_100k |   rank_total_ports |   rank_ports_per_100k | supply_status                         |
+|--------------:|:-------------------|:--------|-----------:|-----------:|-----------:|-------------:|--------------:|-------------:|-----------------:|-------------------:|----------------------:|:--------------------------------------|
+|         06037 | Los Angeles County | CA      |       4883 |         57 |      15272 |         3500 |         18829 |      9808667 |           191.96 |                  1 |                   150 | complete                              |
+|         17031 | Cook County        | IL      |        813 |          0 |       1656 |          982 |          2638 |      5182090 |            50.91 |                 12 |                  1016 | complete                              |
+|         36061 | New York County    | NY      |        386 |          0 |       1601 |           62 |          1663 |      1629477 |           102.06 |                 21 |                   436 | complete                              |
+|         08047 | Gilpin County      | CO      |         38 |          0 |         97 |            2 |            99 |         5901 |          1677.68 |                408 |                     1 | complete                              |
+|         31171 | Thomas County      | NE      |          2 |          0 |          0 |            2 |             2 |          564 |           354.61 |               2059 |                    49 | complete                              |
+|         39049 | Franklin County    | OH      |        428 |          0 |        883 |          207 |          1090 |      1333048 |            81.77 |                 43 |                   592 | complete                              |
+|         47157 | Shelby County      | TN      |         81 |          0 |        126 |           86 |           212 |       919173 |            23.06 |                233 |                  1750 | complete                              |
+|         01025 | Clarke County      | AL      |          1 |          0 |          0 |            2 |             2 |        22543 |             8.87 |               2059 |                  2220 | complete                              |
+|         01009 | Blount County      | AL      |          0 |          0 |          0 |            0 |             0 |        59518 |             0    |               2349 |                  2349 | no stations recorded in this snapshot |
+|         06095 | Solano County      | CA      |        161 |        nan |        nan |          nan |           nan |       451918 |           nan    |                nan |                   nan | port counts incomplete                |
+
+_10 sample rows shown._

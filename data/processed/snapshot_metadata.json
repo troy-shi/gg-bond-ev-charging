@@ -1,0 +1,8 @@
+{
+  "afdc_snapshot_date": "2026-10-30",
+  "afdc_retrieved_at": "2026-10-30T15:38:00Z",
+  "afdc_filters": "fuel_type=ELEC, status=E, access=public, country=US; 50 states + DC",
+  "acs": "ACS 2020-2024 5-year, tables B01003 and B19013 (summary file)",
+  "boundaries": "Census 2024 cartographic boundary files (county 500k for join)",
+  "rucc": "USDA ERS 2023 Rural-Urban Continuum Codes"
+}

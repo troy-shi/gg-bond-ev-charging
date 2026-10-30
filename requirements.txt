@@ -1,0 +1,7 @@
+pandas>=2.0
+geopandas>=1.0
+pyogrio
+shapely>=2.0
+numpy
+scipy
+tabulate
