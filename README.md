@@ -7,7 +7,6 @@ A D3 visual narrative on how public EV charging supply is distributed across the
 
 - **Milestone 2 report:** [`docs/M2_report.md`](docs/M2_report.md)
 - **Sketches:** [`sketches/`](sketches/)
-- **Team tasks and who owns which question:** [`docs/TEAM_TASKS.md`](docs/TEAM_TASKS.md)
 - **Observable notebooks:** _none yet_ (if added, list each URL here with its purpose; notebooks will be public or unlisted)
 
 ## Repository layout

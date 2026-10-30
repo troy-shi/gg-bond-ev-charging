@@ -2,7 +2,7 @@
 
 Put the team's hand-drawn sketches here (photos or scans, `.jpg`/`.png`), named so the report links resolve:
 
-`intro.jpg`, `storyboard.jpg`, `q1.jpg` … `q7.jpg` (owners: see `docs/TEAM_TASKS.md`)
+`storyboard.jpg`, `q1.jpg`, `q2.jpg`, `q3.jpg`, `q4.jpg`, `q5.jpg`, `q6.jpg`, `q7.jpg`
 
 Each sketch follows the "Sketch: views and encodings" table for its question in `docs/M2_report.md`. Before scanning, check that each one shows:
 

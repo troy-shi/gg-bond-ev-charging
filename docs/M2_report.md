@@ -125,8 +125,6 @@ The article is a single scroll. Each step answers one question and sets up the n
 
 > **[Insert storyboard sketch here: `sketches/storyboard.jpg`]**
 
-> **[Insert intro explainer sketch here: `sketches/intro.jpg`]** (station vs. port vs. charging level vs. connector, as four labeled icons)
-
 ---
 
 ## 3. Questions, processed data, and sketches
@@ -456,13 +454,7 @@ All other views use hover tooltips only.
 - Export `county_summary` joined with simplified 1:20m county geometry as TopoJSON for D3.
 - Build Q2, Q5, and Q7 (the interactive views) first, then the four static views.
 - Write the intro section and the transitions from the storyboard.
-- Task split (details in [`docs/TEAM_TASKS.md`](TEAM_TASKS.md)). Each member owns one of the three interactive views:
-
-| Member | M2 sketches and report sections | M3 interactive view | M3 static views |
-|---|---|---|---|
-| Zhangzhuoyue Shi | Storyboard, intro, Q7; §0–§2, §4–§8; data pipeline | Q7 sliders + map + table | Intro |
-| Zihang Yu | Q1, Q2, Q3; §3.1–§3.3 | Q2 linked map + dot plot | Q1, Q3 |
-| Yaxi Wang | Q4, Q5, Q6; §3.4–§3.6 | Q5 dropdown + bars + heatmap | Q4, Q6 |
+- Task split: `<fill in who owns which questions>`.
 
 ## 7. Repository contents
 
