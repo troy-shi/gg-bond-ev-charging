@@ -2,28 +2,46 @@
 
 Milestone 2 is due **Mon Nov 2, 11:59 PM**. Each person commits their own work from their own GitHub account, so the commit history shows who did what.
 
-## Question ownership (Milestone 2 sketches → Milestone 3 D3 views)
+## Equal split: each person owns three sketches and their report sections
 
-Each person owns one of the three coordinated interactive views (★) plus related static views.
+Each person owns one of the three coordinated interactive views (★). You **only edit your own files and report sections**, so nobody overwrites anyone else.
 
-| Member | GitHub | Owns | Interactive view |
+| | Zhangzhuoyue Shi (`troy-shi`) | Zihang Yu (`Zihangyu600`) | Yaxi Wang (`Wyxx0305`) |
 |---|---|---|---|
-| Zhangzhuoyue Shi | `troy-shi` | Storyboard, **Q7** | Q7 sliders + map + table ★ |
-| Zihang Yu | `Zihangyu600` | **Q1, Q2, Q3** | Q2 linked map + dot plot ★ |
-| Yaxi Wang | `Wyxx0305` | **Q4, Q5, Q6** | Q5 dropdown + bars + heatmap ★ |
+| **Sketches (3 each)** | `storyboard.jpg`, `q7.jpg`, `intro.jpg` (station / port / level / connector explainer) | `q1.jpg`, `q2.jpg`, `q3.jpg` | `q4.jpg`, `q5.jpg`, `q6.jpg` |
+| **Report sections you own** | §0 changes, §1 data, §2 storyboard, §3.7 Q7, §4–§8 | §3.1 Q1, §3.2 Q2, §3.3 Q3 | §3.4 Q4, §3.5 Q5, §3.6 Q6 |
+| **Interactive view (M3)** | Q7 sliders + map + table ★ | Q2 linked map + dot plot ★ | Q5 dropdown + bars + heatmap ★ |
+| **Static views (M3)** | intro section | Q1, Q3 | Q4, Q6 |
+| **Shared final step** | export PDF + Brightspace submission | final read-through | final read-through |
 
-Already done (Zhangzhuoyue Shi): data download and processing pipeline (`scripts/`), processed tables (`data/processed/`), M2 report draft (`docs/M2_report.md`), README, and repository setup.
+Already done (Zhangzhuoyue Shi): data download and processing pipeline (`scripts/`), processed tables (`data/processed/`), M2 report draft, README, and repository setup.
+
+## What "optimize your part" means
+
+For each of your questions in `docs/M2_report.md` §3:
+
+1. **Understand it.** Be able to explain, in your own words, the unit of observation, the transformation, and the main data finding for each question (e.g. Q3's bulk-entry dates, Q7's zero-share cutoffs). Instructors may ask in M3 or in the presentation.
+2. **Draw the sketch** from the "Sketch: views and encodings" table. Change the design if you have a better idea, then update the spec table to match your sketch.
+3. **Tighten the text.** Rewrite the question's section in your own words; cut anything you would not say yourself. Keep every number that comes from `docs/samples/` unchanged unless you re-run the scripts.
+4. **Check the design rules** (§5): readable labels, consistent scales, missing data explicit, not color-only.
+5. **Report your AI use** to Zhangzhuoyue (tool, what for), even if it is "none", so §8 is accurate.
+
+Owner-specific notes:
+
+- **Zihang (Q1–Q3):** Q2 is a core interaction. Make the count/rate toggle and the click-to-highlight link between map and dot plot obvious in the sketch. Q3 must show the bulk-date segment and the always-visible note **on the chart**; this was instructor feedback point 1.
+- **Yaxi (Q4–Q6):** Q5 is a core interaction. Show the dropdown, the shared row order of bars and heatmap, and the fixed 0–100% scale. Q6 must use **shape + color** for metro/nonmetro, and both panels must use identical axes.
+- **Zhangzhuoyue (storyboard, intro, Q7, §0–§2, §4–§8):** Q7 must show the rule, actual cutoff values, counter, reset, and caption next to the map and table; this was instructor feedback point 2. Shorten §1 if possible, and finalize §8 from everyone's input.
 
 ## Milestone 2 checklist
 
 | # | Task | Owner | Due |
 |---|---|---|---|
-| 1 | Sketch `storyboard.jpg` and `q7.jpg` | Zhangzhuoyue | Sun Nov 1 |
-| 2 | Sketch `q1.jpg`, `q2.jpg`, `q3.jpg` | Zihang | Sun Nov 1 |
-| 3 | Sketch `q4.jpg`, `q5.jpg`, `q6.jpg` | Yaxi | Sun Nov 1 |
-| 4 | Read your questions' sections in `docs/M2_report.md` §3 and check that the sample tables and sketch specs match your sketch; fix or comment | Each owner | Sun Nov 1 |
-| 5 | Finalize the AI-use statement (report §8 + README) with each member's actual AI use | Zhangzhuoyue (others report their use) | Mon Nov 2 |
-| 6 | Final read-through, export the report to PDF, submit on Brightspace with the repo link | Zhangzhuoyue | Mon Nov 2 |
+| 1 | Draw and commit your 3 sketches to `sketches/` | Everyone | Sun Nov 1 |
+| 2 | Revise your own report sections (see above) and commit | Everyone | Sun Nov 1 |
+| 3 | Send your AI-use note to Zhangzhuoyue | Zihang, Yaxi | Sun Nov 1 |
+| 4 | Finalize §8 + README AI-use statement; remove "Draft" | Zhangzhuoyue | Mon Nov 2 |
+| 5 | Final read-through of the whole report | Zihang, Yaxi | Mon Nov 2 noon |
+| 6 | Export report to PDF, submit on Brightspace with the repo link | Zhangzhuoyue | Mon Nov 2 |
 
 ## How to draw a sketch
 
@@ -48,4 +66,6 @@ git pull --rebase
 git push
 ```
 
-The `user.email` must be an email on **your own** GitHub account. Otherwise GitHub cannot link the commit to you. If you edit the report, commit that change separately (e.g. `Review Q5 section`).
+The `user.email` must be an email on **your own** GitHub account. Otherwise GitHub cannot link the commit to you.
+
+When you edit the report, **run `git pull --rebase` first** and only change your own sections. Different sections of the same file merge cleanly, but the same lines do not. Commit report edits separately from sketches (e.g. `Revise Q4-Q6 sections`).
