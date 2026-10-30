@@ -454,7 +454,13 @@ All other views use hover tooltips only.
 - Export `county_summary` joined with simplified 1:20m county geometry as TopoJSON for D3.
 - Build Q2, Q5, and Q7 (the interactive views) first, then the four static views.
 - Write the intro section and the transitions from the storyboard.
-- Task split: `<fill in who owns which questions>`.
+- Task split (details in [`docs/TEAM_TASKS.md`](TEAM_TASKS.md)). Each member owns one of the three interactive views:
+
+| Member | Owns | Interactive view |
+|---|---|---|
+| Zhangzhuoyue Shi | Storyboard, Q7, data pipeline | Q7 sliders + map + table |
+| Zihang Yu | Q1, Q2, Q3 | Q2 linked map + dot plot |
+| Yaxi Wang | Q4, Q5, Q6 | Q5 dropdown + bars + heatmap |
 
 ## 7. Repository contents
 
